@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\agent\src\config\config.h" />
+    <ClInclude Include="..\..\src\agent\src\coroutine\coroutine.h" />
+    <ClInclude Include="..\..\src\agent\src\http\httplib.h" />
+    <ClInclude Include="..\..\src\agent\src\http\httpserver.h" />
+    <ClInclude Include="..\..\src\agent\src\ins_rpc_cli\ins_rpc_cli.h" />
+    <ClInclude Include="..\..\src\agent\src\ins_rpc_cli\ins_rpc_cli_hello.h" />
+    <ClInclude Include="..\..\src\agent\src\logger\logger.h" />
+    <ClInclude Include="..\..\src\agent\src\proc\heart_beat.h" />
+    <ClInclude Include="..\..\src\agent\src\proto\hello.grpc.pb.h" />
+    <ClInclude Include="..\..\src\agent\src\proto\hello.pb.h" />
+    <ClInclude Include="..\..\src\agent\src\router\router.h" />
+    <ClInclude Include="..\..\src\agent\src\router\router_test.h" />
+    <ClInclude Include="..\..\src\agent\src\run\run.h" />
+    <ClInclude Include="..\..\src\agent\src\tools\tools.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\agent\src\config\config.cc" />
+    <ClCompile Include="..\..\src\agent\src\http\httpserver.cc" />
+    <ClCompile Include="..\..\src\agent\src\ins_rpc_cli\ins_rpc_cli.cc" />
+    <ClCompile Include="..\..\src\agent\src\logger\logger.cc" />
+    <ClCompile Include="..\..\src\agent\src\proc\heart_beat.cc" />
+    <ClCompile Include="..\..\src\agent\src\proto\hello.grpc.pb.cc" />
+    <ClCompile Include="..\..\src\agent\src\proto\hello.pb.cc" />
+    <ClCompile Include="..\..\src\agent\src\router\router.cc" />
+    <ClCompile Include="..\..\src\agent\src\router\router_test.cc" />
+    <ClCompile Include="..\..\src\agent\src\run\run.cc" />
+    <ClCompile Include="..\..\src\agent\src\tools\tools.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\agent\src\proto\hello.proto" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{c7f12e4c-fa03-4967-a4a4-0cc050ca7f37}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>agent</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{2238F9CD-F817-4ECC-BD14-2524D2669B35}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ProjectPublicIncludePath>D:\code\influxdb\ndb-influxdb-instance\src\agent\third_party\log4cpp-2.9.1\include;D:\code\influxdb\ndb-influxdb-instance\src\agent\third_party\grpc\include;D:\code\influxdb\ndb-influxdb-instance\src\agent\third_party\libgo-3.1-stable;D:\include;$(ProjectPublicIncludePath)</ProjectPublicIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ProjectPublicIncludePath>D:\include;$(ProjectPublicIncludePath)</ProjectPublicIncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

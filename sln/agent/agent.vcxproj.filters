@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{6bc251d5-ef6e-43ec-ac70-f4ca5c761198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\proc">
+      <UniqueIdentifier>{1a52fff9-d1cc-494b-a409-076dd9496b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\http">
+      <UniqueIdentifier>{64860c78-eedf-4bd4-885e-d5d7b6004638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\router">
+      <UniqueIdentifier>{eb9c1ce6-ead8-46e9-b56e-c93bf6531d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\config">
+      <UniqueIdentifier>{7e3727a3-4634-4bf6-90da-6792249e4453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\coroutine">
+      <UniqueIdentifier>{d2e171b5-e795-4089-88ea-f53f435a31bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ins_rpc_cli">
+      <UniqueIdentifier>{7f4e4a12-149d-4293-940a-fa7dfd4935a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\logger">
+      <UniqueIdentifier>{f6527aa7-834e-4fe1-8907-971ba79784cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\proto">
+      <UniqueIdentifier>{ae239fee-9a8d-4687-99df-6238ebf5cee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools">
+      <UniqueIdentifier>{35cb60a6-ab29-4fce-b502-85bf964a8723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\run">
+      <UniqueIdentifier>{c97aaf45-f37a-4e5d-af5d-b6e8e6d157c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\agent\src\http\httplib.h">
+      <Filter>src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\src\router\router.h">
+      <Filter>src\router</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\src\router\router_test.h">
+      <Filter>src\router</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\src\config\config.h">
+      <Filter>src\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\src\coroutine\coroutine.h">
+      <Filter>src\coroutine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\src\http\httpserver.h">
+      <Filter>src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\src\ins_rpc_cli\ins_rpc_cli.h">
+      <Filter>src\ins_rpc_cli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\src\ins_rpc_cli\ins_rpc_cli_hello.h">
+      <Filter>src\ins_rpc_cli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\src\logger\logger.h">
+      <Filter>src\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\src\proc\heart_beat.h">
+      <Filter>src\proc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\src\proto\hello.grpc.pb.h">
+      <Filter>src\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\src\proto\hello.pb.h">
+      <Filter>src\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\src\tools\tools.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\agent\src\run\run.h">
+      <Filter>src\run</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\agent\src\router\router.cc">
+      <Filter>src\router</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\src\router\router_test.cc">
+      <Filter>src\router</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\src\config\config.cc">
+      <Filter>src\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\src\http\httpserver.cc">
+      <Filter>src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\src\ins_rpc_cli\ins_rpc_cli.cc">
+      <Filter>src\ins_rpc_cli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\src\logger\logger.cc">
+      <Filter>src\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\src\proc\heart_beat.cc">
+      <Filter>src\proc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\src\proto\hello.grpc.pb.cc">
+      <Filter>src\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\src\proto\hello.pb.cc">
+      <Filter>src\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\src\tools\tools.cc">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\agent\src\run\run.cc">
+      <Filter>src\run</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\agent\src\proto\hello.proto">
+      <Filter>src\proto</Filter>
+    </None>
+  </ItemGroup>
+</Project>
