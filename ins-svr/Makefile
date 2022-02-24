@@ -95,11 +95,11 @@ SRC = src/run/run.cc \
 		src/proto/hello.grpc.pb.cc 
 
 
-TARGET = ins_rpc
+TARGET = ins_svr
 
 all: ${TARGET}
 
-ins_rpc : ${SRC} Makefile
+ins_svr : ${SRC} Makefile
 	$(CXX) -o ${TARGET} \
 		$(CXXFLAGS) \
 		${SRC} \

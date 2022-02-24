@@ -13,7 +13,7 @@
 #include "../logger/logger.h"
 #include "ins_rpc_svr_hello.h"
 
-const static std::string INS_RPC_UNIX_PATH = "unix:/data/influxdb-unix-rpc.socket";
+const static std::string INS_RPC_UNIX_PATH = "unix:/data/influxdb-unix-rpc.sock";
 
 void StartInsRPCServer()
 {
