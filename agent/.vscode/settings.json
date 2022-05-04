@@ -111,5 +111,6 @@
         "xutility": "cpp",
         "*.ipp": "cpp",
         "*.inc": "cpp"
-    }
+    },
+    "git.ignoreLimitWarning": true
 }
