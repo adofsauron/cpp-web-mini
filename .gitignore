@@ -1,0 +1,6 @@
+.vscode/
+.vs/
+sln/agent/.vs/
+sln/agent/obj/
+agent/.vscode/
+ins-svr/.vscode/
