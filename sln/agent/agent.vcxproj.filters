@@ -199,6 +199,78 @@
     <Filter Include="3rc\log4cpp-2.9.1\include\log4cpp\threading">
       <UniqueIdentifier>{6cc0d977-34c7-409e-be5c-36eec285dcd7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="3rc\libwebsockets\lib">
+      <UniqueIdentifier>{de8369cd-ef34-4ccd-b9c1-f1ebc6ce97e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\core">
+      <UniqueIdentifier>{9c5dbfce-1c29-4bad-bfeb-4e829fe0503f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\core-net">
+      <UniqueIdentifier>{5f9cfc85-48ae-4105-b714-b2fa6a91b29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\cose">
+      <UniqueIdentifier>{8052040c-c97d-460d-af51-51d315964005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\drivers">
+      <UniqueIdentifier>{1916708c-b690-438a-b289-dbc4db9df238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\event-libs">
+      <UniqueIdentifier>{3135b89d-f71c-4809-b333-58d9d798601e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\jose">
+      <UniqueIdentifier>{0e94868e-21cf-407c-9c8a-3da4f65dfc9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\misc">
+      <UniqueIdentifier>{b266d107-aafd-47c0-af42-fa43b35114c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\plat">
+      <UniqueIdentifier>{646cf79c-7692-4060-8296-778bffb45893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\roles">
+      <UniqueIdentifier>{db7471e6-7db0-4296-8e1c-8ad7e67696c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\system">
+      <UniqueIdentifier>{2f9f462d-0696-421a-801f-1a8cc3175a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\secure-streams">
+      <UniqueIdentifier>{67b08771-085e-4b60-bf42-4d51071bdd95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\tls">
+      <UniqueIdentifier>{549a2c97-e022-4c54-a386-1254b6f66bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\core-net\client">
+      <UniqueIdentifier>{d79ad24f-8589-4a19-a584-4525d2d00524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\event-libs\libev">
+      <UniqueIdentifier>{e8d9bc30-e431-4b19-b9eb-654191d41f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\event-libs\libevent">
+      <UniqueIdentifier>{9e4bd73d-ae00-4410-a037-bee753a9de59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\event-libs\libuv">
+      <UniqueIdentifier>{47087fb5-86ac-407c-ba15-5aa48eb61796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\event-libs\sdevent">
+      <UniqueIdentifier>{3f1b4c89-e283-443e-bd37-c04e1afda3cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\event-libs\poll">
+      <UniqueIdentifier>{414bbb35-dc86-46af-85a1-972ee95e0818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\event-libs\uloop">
+      <UniqueIdentifier>{14098e85-bd88-4df7-b4fe-86780bc4c132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\event-libs\glib">
+      <UniqueIdentifier>{22d28682-6657-4f63-8a80-47a074cce5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\misc\threadpool">
+      <UniqueIdentifier>{39e5c95b-0383-4279-9174-6e51a53c31d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\plat\unix">
+      <UniqueIdentifier>{5e2e546f-2470-47e8-94da-3067450f5de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\lib\plat\windows">
+      <UniqueIdentifier>{59e327f2-798e-495b-ac99-7742b8a56920}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\agent\src\config\config.h">
@@ -3147,6 +3219,63 @@
     <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\src\StringUtil.hh">
       <Filter>3rc\log4cpp-2.9.1\src</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\core\private-lib-core.h">
+      <Filter>3rc\libwebsockets\lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\core-net\private-lib-core-net.h">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\cose\private-lib-cose.h">
+      <Filter>3rc\libwebsockets\lib\cose</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\event-libs\glib\private-lib-event-libs-glib.h">
+      <Filter>3rc\libwebsockets\lib\event-libs\glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\event-libs\libev\private-lib-event-libs-libev.h">
+      <Filter>3rc\libwebsockets\lib\event-libs\libev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\event-libs\libevent\private-lib-event-libs-libevent.h">
+      <Filter>3rc\libwebsockets\lib\event-libs\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\event-libs\libuv\private-lib-event-libs-libuv.h">
+      <Filter>3rc\libwebsockets\lib\event-libs\libuv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\event-libs\uloop\private-lib-event-libs-uloop.h">
+      <Filter>3rc\libwebsockets\lib\event-libs\uloop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\event-libs\poll\private-lib-event-libs-poll.h">
+      <Filter>3rc\libwebsockets\lib\event-libs\poll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\event-libs\sdevent\private-lib-event-libs-sdevent.h">
+      <Filter>3rc\libwebsockets\lib\event-libs\sdevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\event-libs\private-lib-event-libs.h">
+      <Filter>3rc\libwebsockets\lib\event-libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\jose\private-lib-jose.h">
+      <Filter>3rc\libwebsockets\lib\jose</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\misc\css-lextable.h">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\misc\css-propconst-lextable.h">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\misc\getifaddrs.h">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\misc\romfs.h">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\roles\private-lib-roles.h">
+      <Filter>3rc\libwebsockets\lib\roles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\plat\unix\private-lib-plat-unix.h">
+      <Filter>3rc\libwebsockets\lib\plat\unix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\private-lib-plat-windows.h">
+      <Filter>3rc\libwebsockets\lib\plat\windows</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\agent\src\config\config.cc">
@@ -5759,6 +5888,279 @@
     <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\Win32DebugAppender.cpp">
       <Filter>3rc\log4cpp-2.9.1\src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core\alloc.c">
+      <Filter>3rc\libwebsockets\lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core\buflist.c">
+      <Filter>3rc\libwebsockets\lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core\context.c">
+      <Filter>3rc\libwebsockets\lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core\libwebsockets.c">
+      <Filter>3rc\libwebsockets\lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core\logs.c">
+      <Filter>3rc\libwebsockets\lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core\lws_dll2.c">
+      <Filter>3rc\libwebsockets\lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core\lws_map.c">
+      <Filter>3rc\libwebsockets\lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core\vfs.c">
+      <Filter>3rc\libwebsockets\lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\client\client.c">
+      <Filter>3rc\libwebsockets\lib\core-net\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\client\conmon.c">
+      <Filter>3rc\libwebsockets\lib\core-net\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\client\connect.c">
+      <Filter>3rc\libwebsockets\lib\core-net\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\client\connect2.c">
+      <Filter>3rc\libwebsockets\lib\core-net\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\client\connect3.c">
+      <Filter>3rc\libwebsockets\lib\core-net\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\client\connect4.c">
+      <Filter>3rc\libwebsockets\lib\core-net\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\client\sort-dns.c">
+      <Filter>3rc\libwebsockets\lib\core-net\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\adopt.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\close.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\dummy-callback.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\lws-dsh.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\network.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\output.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\pollfd.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\route.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\service.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\socks5-client.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\sorted-usec-list.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\state.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\transport-mux-client.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\transport-mux-common.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\transport-mux-proxy.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\vhost.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\wsi.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\core-net\wsi-timeout.c">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\cose\cose_key.c">
+      <Filter>3rc\libwebsockets\lib\cose</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\cose\cose_sign.c">
+      <Filter>3rc\libwebsockets\lib\cose</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\cose\cose_sign_alg.c">
+      <Filter>3rc\libwebsockets\lib\cose</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\cose\cose_validate.c">
+      <Filter>3rc\libwebsockets\lib\cose</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\cose\cose_validate_alg.c">
+      <Filter>3rc\libwebsockets\lib\cose</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\event-libs\glib\glib.c">
+      <Filter>3rc\libwebsockets\lib\event-libs\glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\event-libs\libev\libev.c">
+      <Filter>3rc\libwebsockets\lib\event-libs\libev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\event-libs\libevent\libevent.c">
+      <Filter>3rc\libwebsockets\lib\event-libs\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\event-libs\libuv\libuv.c">
+      <Filter>3rc\libwebsockets\lib\event-libs\libuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\event-libs\uloop\uloop.c">
+      <Filter>3rc\libwebsockets\lib\event-libs\uloop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\event-libs\poll\poll.c">
+      <Filter>3rc\libwebsockets\lib\event-libs\poll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\event-libs\sdevent\sdevent.c">
+      <Filter>3rc\libwebsockets\lib\event-libs\sdevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\threadpool\threadpool.c">
+      <Filter>3rc\libwebsockets\lib\misc\threadpool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\backtrace.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\base64-decode.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\daemonize.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\dir.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\diskcache.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\fsmount.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\getifaddrs.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\ieeehalfprecision.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\jpeg.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\lecp.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\lejp.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\lhp.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\lhp-ss.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\lws-ring.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\lws-struct-lejp.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\lws-struct-sqlite.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\minilex.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\peer-limits.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\prng.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\romfs.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\sha-1.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\upng.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\misc\upng-gzip.c">
+      <Filter>3rc\libwebsockets\lib\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\system\system.c">
+      <Filter>3rc\libwebsockets\lib\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\unix\unix-caps.c">
+      <Filter>3rc\libwebsockets\lib\plat\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\unix\unix-fds.c">
+      <Filter>3rc\libwebsockets\lib\plat\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\unix\unix-file.c">
+      <Filter>3rc\libwebsockets\lib\plat\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\unix\unix-init.c">
+      <Filter>3rc\libwebsockets\lib\plat\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\unix\unix-misc.c">
+      <Filter>3rc\libwebsockets\lib\plat\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\unix\unix-pipe.c">
+      <Filter>3rc\libwebsockets\lib\plat\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\unix\unix-plugins.c">
+      <Filter>3rc\libwebsockets\lib\plat\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\unix\unix-resolv.c">
+      <Filter>3rc\libwebsockets\lib\plat\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\unix\unix-service.c">
+      <Filter>3rc\libwebsockets\lib\plat\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\unix\unix-sockets.c">
+      <Filter>3rc\libwebsockets\lib\plat\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\unix\unix-spawn.c">
+      <Filter>3rc\libwebsockets\lib\plat\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\windows-fds.c">
+      <Filter>3rc\libwebsockets\lib\plat\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\windows-file.c">
+      <Filter>3rc\libwebsockets\lib\plat\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\windows-init.c">
+      <Filter>3rc\libwebsockets\lib\plat\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\windows-misc.c">
+      <Filter>3rc\libwebsockets\lib\plat\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\windows-pipe.c">
+      <Filter>3rc\libwebsockets\lib\plat\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\windows-plugins.c">
+      <Filter>3rc\libwebsockets\lib\plat\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\windows-resolv.c">
+      <Filter>3rc\libwebsockets\lib\plat\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\windows-service.c">
+      <Filter>3rc\libwebsockets\lib\plat\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\windows-sockets.c">
+      <Filter>3rc\libwebsockets\lib\plat\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\windows-spawn.c">
+      <Filter>3rc\libwebsockets\lib\plat\windows</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\agent\src\proto\hello.proto">
@@ -8005,5 +8407,19 @@
     <None Include="..\..\3rd\third_party\libyaml\src\Makefile.am">
       <Filter>3rc\libyaml\src</Filter>
     </None>
+    <None Include="..\..\3rd\third_party\libwebsockets\lib\core-net\README.md">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\3rd\third_party\libwebsockets\lib\core\CMakeLists.txt">
+      <Filter>3rc\libwebsockets\lib\core</Filter>
+    </Text>
+    <Text Include="..\..\3rd\third_party\libwebsockets\lib\core-net\CMakeLists.txt">
+      <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </Text>
+    <Text Include="..\..\3rd\third_party\libwebsockets\lib\cose\CMakeLists.txt">
+      <Filter>3rc\libwebsockets\lib\cose</Filter>
+    </Text>
   </ItemGroup>
 </Project>
