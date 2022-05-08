@@ -166,6 +166,39 @@
     <Filter Include="3rc\k8s-c-0.1.0\examples\auth_provider">
       <UniqueIdentifier>{02d646dd-de8d-45da-acf6-d63b989289de}</UniqueIdentifier>
     </Filter>
+    <Filter Include="3rc\libwebsockets">
+      <UniqueIdentifier>{ee05b52d-ba65-4919-b11f-17d73bf5db1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\include">
+      <UniqueIdentifier>{6d023336-525b-4a89-a228-0a4dd8a540bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libwebsockets\include\libwebsockets">
+      <UniqueIdentifier>{cea04386-c605-4c6a-a300-1580e5e8d376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libyaml">
+      <UniqueIdentifier>{e68dd764-2d01-4e6c-93ff-f0563a69e067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libyaml\include">
+      <UniqueIdentifier>{c09300c4-26aa-41ae-bb6b-bb4ab5af29d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libyaml\src">
+      <UniqueIdentifier>{5cfc2511-aa95-4ace-abd9-d52fa53c8d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\log4cpp-2.9.1">
+      <UniqueIdentifier>{c643b5b6-6ac3-49c9-9e99-3fa64280fff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\log4cpp-2.9.1\include">
+      <UniqueIdentifier>{4fa69f18-b55e-4da6-82ac-dc3b7a6fc5ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\log4cpp-2.9.1\src">
+      <UniqueIdentifier>{761c9dd7-503e-4552-bd35-b6573ea69ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\log4cpp-2.9.1\include\log4cpp">
+      <UniqueIdentifier>{a52eb354-141f-47c0-8139-e920bfb9cf07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\log4cpp-2.9.1\include\log4cpp\threading">
+      <UniqueIdentifier>{6cc0d977-34c7-409e-be5c-36eec285dcd7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\agent\src\config\config.h">
@@ -2655,6 +2688,465 @@
     <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\multi_thread\mt.h">
       <Filter>3rc\k8s-c-0.1.0\examples\multi_thread</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets.h">
+      <Filter>3rc\libwebsockets\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets.hxx">
+      <Filter>3rc\libwebsockets\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-adopt.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-async-dns.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-backtrace.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-bb-i2c.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-bb-spi.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-button.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-cache-ttl.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-callbacks.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-cgi.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-client.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-conmon.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-context-vhost.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-cose.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-dbus.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-diskcache.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-display.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-dll2.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-dlo.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-dsh.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-esp32-spi.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-eventlib-exports.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-fault-injection.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-freertos.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-fts.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-genaes.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-gencrypto.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-genec.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-genhash.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-genrsa.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-gpio.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-html.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-http.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-i2c.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-ili9341-spi.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-jose.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-jpeg.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-jrpc.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-jwe.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-jwk.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-jws.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-lecp.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-led.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-lejp.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-logs.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-lwsac.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-map.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-metrics.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-misc.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-mqtt.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-netdev.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-network-helper.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-optee.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-ota.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-protocols-plugins.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-purify.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-pwm.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-retry.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-ring.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-secure-streams.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-secure-streams-client.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-secure-streams-policy.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-secure-streams-serialization.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-secure-streams-transport-proxy.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-service.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-settings.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-sha1-base64.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-smd.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-spa.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-spd1656-spi.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-spi.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-ssd1306-i2c.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-ssd1675b-spi.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-state.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-struct.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-system.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-test-sequencer.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-threadpool.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-timeout-timer.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-tls-sessions.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-tokenize.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-uc8176-spi.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-upng.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-vfs.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-write.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-writeable.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-ws-close.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-ws-ext.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-ws-state.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\include\libwebsockets\lws-x509.h">
+      <Filter>3rc\libwebsockets\include\libwebsockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libyaml\include\yaml.h">
+      <Filter>3rc\libyaml\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libyaml\src\yaml_private.h">
+      <Filter>3rc\libyaml\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\threading\BoostThreads.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\threading\DummyThreads.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\threading\MSThreads.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\threading\OmniThreads.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\threading\PThreads.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\threading\Threading.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\AbortAppender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\Appender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\AppendersFactory.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\AppenderSkeleton.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\BasicConfigurator.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\BasicLayout.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\BufferingAppender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\Category.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\CategoryStream.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\config-MinGW32.h">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\config-openvms.h">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\Configurator.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\config-win32.h">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\config-win32-stlport-boost.h">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\convenience.h">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\DailyRollingFileAppender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\Export.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\FactoryParams.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\FileAppender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\Filter.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\FixedContextCategory.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\GenerationalFileAppender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\HierarchyMaintainer.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\IdsaAppender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\Layout.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\LayoutAppender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\LayoutsFactory.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\LevelEvaluator.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\LoggingEvent.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\Manipulator.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\NDC.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\NTEventLogAppender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\OstreamAppender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\PassThroughLayout.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\PatternLayout.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\Portability.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\Priority.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\PropertyConfigurator.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\RemoteSyslogAppender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\RollingFileAppender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\SimpleConfigurator.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\SimpleLayout.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\SmtpAppender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\StringQueueAppender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\SyslogAppender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\TimeStamp.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\TriggeringEventEvaluator.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\TriggeringEventEvaluatorFactory.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\Win32DebugAppender.hh">
+      <Filter>3rc\log4cpp-2.9.1\include\log4cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\src\Localtime.hh">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\src\PortabilityImpl.hh">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\src\Properties.hh">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\src\PropertyConfiguratorImpl.hh">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\src\StringUtil.hh">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\agent\src\config\config.cc">
@@ -5090,6 +5582,183 @@
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\auth_provider\main.c">
       <Filter>3rc\k8s-c-0.1.0\examples\auth_provider</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libyaml\src\api.c">
+      <Filter>3rc\libyaml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libyaml\src\dumper.c">
+      <Filter>3rc\libyaml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libyaml\src\emitter.c">
+      <Filter>3rc\libyaml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libyaml\src\loader.c">
+      <Filter>3rc\libyaml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libyaml\src\parser.c">
+      <Filter>3rc\libyaml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libyaml\src\reader.c">
+      <Filter>3rc\libyaml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libyaml\src\scanner.c">
+      <Filter>3rc\libyaml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libyaml\src\writer.c">
+      <Filter>3rc\libyaml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\AbortAppender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\Appender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\AppendersFactory.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\AppenderSkeleton.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\BasicConfigurator.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\BasicLayout.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\BufferingAppender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\Category.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\CategoryStream.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\Configurator.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\DailyRollingFileAppender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\DllMain.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\DummyThreads.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\FactoryParams.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\FileAppender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\Filter.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\FixedContextCategory.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\GenerationalFileAppender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\HierarchyMaintainer.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\IdsaAppender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\LayoutAppender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\LayoutsFactory.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\LevelEvaluator.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\Localtime.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\LoggingEvent.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\Manipulator.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\MSThreads.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\NDC.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\NTEventLogAppender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\OmniThreads.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\OstreamAppender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\PassThroughLayout.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\PatternLayout.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\PortabilityImpl.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\Priority.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\Properties.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\PropertyConfigurator.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\PropertyConfiguratorImpl.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\PThreads.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\RemoteSyslogAppender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\RollingFileAppender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\SimpleConfigurator.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\SimpleLayout.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\SmtpAppender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\snprintf.c">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\StringQueueAppender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\StringUtil.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\SyslogAppender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\TimeStamp.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\TriggeringEventEvaluatorFactory.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\log4cpp-2.9.1\src\Win32DebugAppender.cpp">
+      <Filter>3rc\log4cpp-2.9.1\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\agent\src\proto\hello.proto">
@@ -7332,6 +8001,9 @@
     </None>
     <None Include="..\..\3rd\third_party\libgo-3.1-stable\README.md">
       <Filter>3rc\libgo-3.1-stable</Filter>
+    </None>
+    <None Include="..\..\3rd\third_party\libyaml\src\Makefile.am">
+      <Filter>3rc\libyaml\src</Filter>
     </None>
   </ItemGroup>
 </Project>
