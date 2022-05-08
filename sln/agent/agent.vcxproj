@@ -35,36 +35,36 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\src\agent\src\config\config.h" />
-    <ClInclude Include="..\..\src\agent\src\coroutine\coroutine.h" />
-    <ClInclude Include="..\..\src\agent\src\http\httplib.h" />
-    <ClInclude Include="..\..\src\agent\src\http\httpserver.h" />
-    <ClInclude Include="..\..\src\agent\src\ins_rpc_cli\ins_rpc_cli.h" />
-    <ClInclude Include="..\..\src\agent\src\ins_rpc_cli\ins_rpc_cli_hello.h" />
-    <ClInclude Include="..\..\src\agent\src\logger\logger.h" />
-    <ClInclude Include="..\..\src\agent\src\proc\heart_beat.h" />
-    <ClInclude Include="..\..\src\agent\src\proto\hello.grpc.pb.h" />
-    <ClInclude Include="..\..\src\agent\src\proto\hello.pb.h" />
-    <ClInclude Include="..\..\src\agent\src\router\router.h" />
-    <ClInclude Include="..\..\src\agent\src\router\router_test.h" />
-    <ClInclude Include="..\..\src\agent\src\run\run.h" />
-    <ClInclude Include="..\..\src\agent\src\tools\tools.h" />
+    <ClInclude Include="..\..\agent\src\config\config.h" />
+    <ClInclude Include="..\..\agent\src\coroutine\coroutine.h" />
+    <ClInclude Include="..\..\agent\src\http\httplib.h" />
+    <ClInclude Include="..\..\agent\src\http\httpserver.h" />
+    <ClInclude Include="..\..\agent\src\ins_rpc_cli\ins_rpc_cli.h" />
+    <ClInclude Include="..\..\agent\src\ins_rpc_cli\ins_rpc_cli_hello.h" />
+    <ClInclude Include="..\..\agent\src\logger\logger.h" />
+    <ClInclude Include="..\..\agent\src\proc\heart_beat.h" />
+    <ClInclude Include="..\..\agent\src\proto\hello.grpc.pb.h" />
+    <ClInclude Include="..\..\agent\src\proto\hello.pb.h" />
+    <ClInclude Include="..\..\agent\src\router\router.h" />
+    <ClInclude Include="..\..\agent\src\router\router_test.h" />
+    <ClInclude Include="..\..\agent\src\run\run.h" />
+    <ClInclude Include="..\..\agent\src\tools\tools.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\agent\src\config\config.cc" />
-    <ClCompile Include="..\..\src\agent\src\http\httpserver.cc" />
-    <ClCompile Include="..\..\src\agent\src\ins_rpc_cli\ins_rpc_cli.cc" />
-    <ClCompile Include="..\..\src\agent\src\logger\logger.cc" />
-    <ClCompile Include="..\..\src\agent\src\proc\heart_beat.cc" />
-    <ClCompile Include="..\..\src\agent\src\proto\hello.grpc.pb.cc" />
-    <ClCompile Include="..\..\src\agent\src\proto\hello.pb.cc" />
-    <ClCompile Include="..\..\src\agent\src\router\router.cc" />
-    <ClCompile Include="..\..\src\agent\src\router\router_test.cc" />
-    <ClCompile Include="..\..\src\agent\src\run\run.cc" />
-    <ClCompile Include="..\..\src\agent\src\tools\tools.cc" />
+    <ClCompile Include="..\..\agent\src\config\config.cc" />
+    <ClCompile Include="..\..\agent\src\http\httpserver.cc" />
+    <ClCompile Include="..\..\agent\src\ins_rpc_cli\ins_rpc_cli.cc" />
+    <ClCompile Include="..\..\agent\src\logger\logger.cc" />
+    <ClCompile Include="..\..\agent\src\proc\heart_beat.cc" />
+    <ClCompile Include="..\..\agent\src\proto\hello.grpc.pb.cc" />
+    <ClCompile Include="..\..\agent\src\proto\hello.pb.cc" />
+    <ClCompile Include="..\..\agent\src\router\router.cc" />
+    <ClCompile Include="..\..\agent\src\router\router_test.cc" />
+    <ClCompile Include="..\..\agent\src\run\run.cc" />
+    <ClCompile Include="..\..\agent\src\tools\tools.cc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\src\agent\src\proto\hello.proto" />
+    <None Include="..\..\agent\src\proto\hello.proto" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{c7f12e4c-fa03-4967-a4a4-0cc050ca7f37}</ProjectGuid>
