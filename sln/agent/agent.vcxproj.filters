@@ -34,6 +34,72 @@
     <Filter Include="src\run">
       <UniqueIdentifier>{c97aaf45-f37a-4e5d-af5d-b6e8e6d157c9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="3rc">
+      <UniqueIdentifier>{cfd745aa-5a4a-4280-a2fc-45189fa06d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable">
+      <UniqueIdentifier>{50124a02-be47-46fb-b349-654b01ba09cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo">
+      <UniqueIdentifier>{ef4f00ec-23e9-4c85-aaf1-35a95c32c31b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\cls">
+      <UniqueIdentifier>{a0a55fb1-6d3b-480b-afb1-6dbb839bf285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\common">
+      <UniqueIdentifier>{93ff8841-544f-4187-a234-ba6780898df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\context">
+      <UniqueIdentifier>{a5c3280a-4390-4e97-9247-16ff9802c698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\debug">
+      <UniqueIdentifier>{784d9c45-510e-4371-972f-8715bb85769a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\defer">
+      <UniqueIdentifier>{8112d94e-2109-43dd-9675-fa153c1085fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\netio">
+      <UniqueIdentifier>{e8b3a938-c0e0-4a7e-8eba-beb4576b8eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\pool">
+      <UniqueIdentifier>{c4c02ea2-c3ad-4673-8d4f-ac82deb7d6ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\scheduler">
+      <UniqueIdentifier>{e814fae4-b5f6-49be-bd19-84428cd07b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\sync">
+      <UniqueIdentifier>{d7527f38-cf11-496f-b496-a31d770caa7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\task">
+      <UniqueIdentifier>{f725b41b-bee9-4bc1-b153-b096cb55bed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\timer">
+      <UniqueIdentifier>{f1e3ac75-6c5b-450b-9a8a-bc5d68529214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\context\fiber">
+      <UniqueIdentifier>{4ad3bf5d-2302-46e0-82c1-c5482fd359af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\netio\unix">
+      <UniqueIdentifier>{d86da87c-9e56-4efd-8693-083cabcb0b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\netio\windows">
+      <UniqueIdentifier>{a010570e-9d63-4d1d-bbcb-de66efb33afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\netio\disable_hook">
+      <UniqueIdentifier>{5d6b03b2-8132-4f68-8990-f64430a6c1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\netio\windows\arpa">
+      <UniqueIdentifier>{58040830-3170-45e7-90dc-214e5c3b547c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\netio\windows\sys">
+      <UniqueIdentifier>{3d8d8a11-6164-4535-96cd-96cad1cbb01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\netio\windows\xhook">
+      <UniqueIdentifier>{e89d2d0b-d6f2-4e67-ab97-2b2997d5179d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\libgo-3.1-stable\libgo\netio\unix\static_hook">
+      <UniqueIdentifier>{847c38e4-6076-4bc7-9a41-60447efd7988}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\agent\src\config\config.h">
@@ -78,6 +144,162 @@
     <ClInclude Include="..\..\agent\src\tools\tools.h">
       <Filter>src\tools</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\coroutine.h">
+      <Filter>3rc\libgo-3.1-stable\libgo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\libgo.h">
+      <Filter>3rc\libgo-3.1-stable\libgo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\cls\co_local_storage.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\cls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\any.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\anys.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\clock.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\config.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\dbg_timer.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\deque.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\error.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\lock_free_ring_queue.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\pp.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\spinlock.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\syntax_helper.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\timer.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\ts_queue.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\util.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\context\context.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\context</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\context\fcontext.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\context</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\context\fiber\context.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\context\fiber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\debug\debugger.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\debug\listener.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\defer\defer.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\defer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\poll.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\reactor.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\unistd.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\win_vc_hook.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\arpa\inet.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows\arpa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\xhook\xhook.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows\xhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\sys\epoll.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\sys\resource.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\sys\select.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\sys\socket.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\epoll_reactor.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\unix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\fd_context.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\unix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\hook.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\unix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\hook_helper.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\unix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\kqueue_reactor.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\unix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\reactor.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\unix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\reactor_element.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\unix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\timer\timer.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\task\task.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\sync\channel.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\sync</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\sync\co_condition_variable.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\sync</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\sync\co_mutex.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\sync</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\sync\co_rwmutex.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\sync</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\scheduler\processer.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\scheduler\ref.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\scheduler\scheduler.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\scheduler\timer_suspend.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\pool\async_coroutine_pool.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\pool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\pool\connection_pool.h">
+      <Filter>3rc\libgo-3.1-stable\libgo\pool</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\agent\src\config\config.cc">
@@ -113,10 +335,100 @@
     <ClCompile Include="..\..\agent\src\tools\tools.cc">
       <Filter>src\tools</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\cls\co_local_storage.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\cls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\config.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\error.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\context\fcontext.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\debug\debugger.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\defer\defer.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\defer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\disable_hook\disable_hook.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\disable_hook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\reactor.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\unistd.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\win_vc_hook.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\xhook\uimports.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows\xhook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\xhook\xhook.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows\xhook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\sys\socket.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\windows\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\static_hook\static_hook.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\unix\static_hook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\epoll_reactor.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\fd_context.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\hook.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\hook_helper.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\kqueue_reactor.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\reactor.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\reactor_element.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\netio\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\timer\timer.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\task\task.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\sync\co_condition_variable.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\sync\co_mutex.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\sync\co_rwmutex.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\scheduler\processer.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\scheduler\scheduler.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\pool\async_coroutine_pool.cpp">
+      <Filter>3rc\libgo-3.1-stable\libgo\pool</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\agent\src\proto\hello.proto">
       <Filter>src\proto</Filter>
+    </None>
+    <None Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\cmake_config.h.in">
+      <Filter>3rc\libgo-3.1-stable\libgo\common</Filter>
     </None>
   </ItemGroup>
 </Project>

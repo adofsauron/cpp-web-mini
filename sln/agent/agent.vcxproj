@@ -35,6 +35,58 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\cls\co_local_storage.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\any.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\anys.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\clock.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\config.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\dbg_timer.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\deque.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\error.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\lock_free_ring_queue.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\pp.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\spinlock.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\syntax_helper.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\timer.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\ts_queue.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\util.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\context\context.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\context\fcontext.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\context\fiber\context.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\coroutine.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\debug\debugger.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\debug\listener.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\defer\defer.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\libgo.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\epoll_reactor.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\fd_context.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\hook.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\hook_helper.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\kqueue_reactor.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\reactor.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\reactor_element.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\arpa\inet.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\poll.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\reactor.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\sys\epoll.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\sys\resource.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\sys\select.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\sys\socket.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\unistd.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\win_vc_hook.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\xhook\xhook.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\pool\async_coroutine_pool.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\pool\connection_pool.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\scheduler\processer.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\scheduler\ref.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\scheduler\scheduler.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\scheduler\timer_suspend.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\sync\channel.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\sync\co_condition_variable.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\sync\co_mutex.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\sync\co_rwmutex.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\task\task.h" />
+    <ClInclude Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\timer\timer.h" />
     <ClInclude Include="..\..\agent\src\config\config.h" />
     <ClInclude Include="..\..\agent\src\coroutine\coroutine.h" />
     <ClInclude Include="..\..\agent\src\http\httplib.h" />
@@ -51,6 +103,35 @@
     <ClInclude Include="..\..\agent\src\tools\tools.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\cls\co_local_storage.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\config.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\error.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\context\fcontext.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\debug\debugger.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\defer\defer.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\disable_hook\disable_hook.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\epoll_reactor.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\fd_context.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\hook.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\hook_helper.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\kqueue_reactor.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\reactor.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\reactor_element.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\unix\static_hook\static_hook.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\reactor.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\sys\socket.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\unistd.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\win_vc_hook.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\xhook\uimports.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\netio\windows\xhook\xhook.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\pool\async_coroutine_pool.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\scheduler\processer.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\scheduler\scheduler.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\sync\co_condition_variable.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\sync\co_mutex.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\sync\co_rwmutex.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\task\task.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\timer\timer.cpp" />
     <ClCompile Include="..\..\agent\src\config\config.cc" />
     <ClCompile Include="..\..\agent\src\http\httpserver.cc" />
     <ClCompile Include="..\..\agent\src\ins_rpc_cli\ins_rpc_cli.cc" />
@@ -64,6 +145,7 @@
     <ClCompile Include="..\..\agent\src\tools\tools.cc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\3rd\third_party\libgo-3.1-stable\libgo\common\cmake_config.h.in" />
     <None Include="..\..\agent\src\proto\hello.proto" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
