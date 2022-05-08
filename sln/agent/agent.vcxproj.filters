@@ -145,6 +145,9 @@
     <Filter Include="3rc\k8s-c-0.1.0\examples\delete_pod">
       <UniqueIdentifier>{7bb6e190-7c47-4727-b060-648ede818bce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="3rc\k8s-c-0.1.0\kubernetes\config\authn_plugin">
+      <UniqueIdentifier>{192dd1db-8fcb-444f-a870-18d9f2857a5b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\agent\src\config\config.h">
@@ -2625,6 +2628,12 @@
     <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\watch\watch_util.h">
       <Filter>3rc\k8s-c-0.1.0\kubernetes\watch</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\authn_plugin\authn_plugin.h">
+      <Filter>3rc\k8s-c-0.1.0\kubernetes\config\authn_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\authn_plugin\authn_plugin_util.h">
+      <Filter>3rc\k8s-c-0.1.0\kubernetes\config\authn_plugin</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\agent\src\config\config.cc">
@@ -5029,6 +5038,12 @@
     </ClCompile>
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\create_pod\main.c">
       <Filter>3rc\k8s-c-0.1.0\examples\create_pod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\authn_plugin\authn_plugin.c">
+      <Filter>3rc\k8s-c-0.1.0\kubernetes\config\authn_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\authn_plugin\authn_plugin_util.c">
+      <Filter>3rc\k8s-c-0.1.0\kubernetes\config\authn_plugin</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

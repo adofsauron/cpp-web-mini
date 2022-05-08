@@ -105,6 +105,8 @@
     <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\api\StorageV1API.h" />
     <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\api\StorageV1beta1API.h" />
     <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\api\VersionAPI.h" />
+    <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\authn_plugin\authn_plugin.h" />
+    <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\authn_plugin\authn_plugin_util.h" />
     <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\exec_provider.h" />
     <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\incluster_config.h" />
     <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\kube_config.h" />
@@ -935,6 +937,8 @@
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\api\StorageV1API.c" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\api\StorageV1beta1API.c" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\api\VersionAPI.c" />
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\authn_plugin\authn_plugin.c" />
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\authn_plugin\authn_plugin_util.c" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\exec_provider.c" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\incluster_config.c" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\kube_config.c" />
