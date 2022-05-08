@@ -1,5 +1,6 @@
 .vscode/
 .vs/
+out/
 sln/agent/.vs/
 sln/agent/obj/
 sln/agent/bin/
