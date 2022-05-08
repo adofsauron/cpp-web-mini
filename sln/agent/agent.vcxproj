@@ -35,6 +35,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\multi_thread\mt.h" />
     <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\api\AdmissionregistrationAPI.h" />
     <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\api\AdmissionregistrationV1API.h" />
     <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\api\AdmissionregistrationV1beta1API.h" />
@@ -865,8 +866,15 @@
     <ClInclude Include="..\..\agent\src\tools\tools.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\configmap\main.c" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\create_pod\main.c" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\delete_pod\main.c" />
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\exec_pod\main.c" />
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\list_pod\main.c" />
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\multi_thread\create_pod.c" />
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\multi_thread\main.c" />
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\multi_thread\watch_pod.c" />
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\watch_list_pod\main.c" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\api\AdmissionregistrationAPI.c" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\api\AdmissionregistrationV1API.c" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\api\AdmissionregistrationV1beta1API.c" />

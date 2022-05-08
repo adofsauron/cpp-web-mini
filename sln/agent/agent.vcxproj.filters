@@ -148,6 +148,21 @@
     <Filter Include="3rc\k8s-c-0.1.0\kubernetes\config\authn_plugin">
       <UniqueIdentifier>{192dd1db-8fcb-444f-a870-18d9f2857a5b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="3rc\k8s-c-0.1.0\examples\exec_pod">
+      <UniqueIdentifier>{8716eaa7-9d7d-4ef6-8803-0b65723ca08d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\k8s-c-0.1.0\examples\list_pod">
+      <UniqueIdentifier>{190d9a11-794f-46cb-b3b6-6df49f169f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\k8s-c-0.1.0\examples\configmap">
+      <UniqueIdentifier>{e20a2d8c-1668-4a4d-bf5f-8b616cc067bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\k8s-c-0.1.0\examples\multi_thread">
+      <UniqueIdentifier>{53af218f-39cd-42f3-85a2-b4137cc86785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\k8s-c-0.1.0\examples\watch_list_pod">
+      <UniqueIdentifier>{ed673279-8288-40b4-814c-37a7cac096e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\agent\src\config\config.h">
@@ -2634,6 +2649,9 @@
     <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\authn_plugin\authn_plugin_util.h">
       <Filter>3rc\k8s-c-0.1.0\kubernetes\config\authn_plugin</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\multi_thread\mt.h">
+      <Filter>3rc\k8s-c-0.1.0\examples\multi_thread</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\agent\src\config\config.cc">
@@ -5044,6 +5062,27 @@
     </ClCompile>
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\config\authn_plugin\authn_plugin_util.c">
       <Filter>3rc\k8s-c-0.1.0\kubernetes\config\authn_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\exec_pod\main.c">
+      <Filter>3rc\k8s-c-0.1.0\examples\exec_pod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\list_pod\main.c">
+      <Filter>3rc\k8s-c-0.1.0\examples\list_pod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\configmap\main.c">
+      <Filter>3rc\k8s-c-0.1.0\examples\configmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\multi_thread\create_pod.c">
+      <Filter>3rc\k8s-c-0.1.0\examples\multi_thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\multi_thread\main.c">
+      <Filter>3rc\k8s-c-0.1.0\examples\multi_thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\multi_thread\watch_pod.c">
+      <Filter>3rc\k8s-c-0.1.0\examples\multi_thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\watch_list_pod\main.c">
+      <Filter>3rc\k8s-c-0.1.0\examples\watch_list_pod</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
