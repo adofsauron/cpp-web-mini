@@ -866,6 +866,7 @@
     <ClInclude Include="..\..\agent\src\tools\tools.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\auth_provider\main.c" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\configmap\main.c" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\create_pod\main.c" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\delete_pod\main.c" />

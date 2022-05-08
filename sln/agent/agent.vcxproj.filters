@@ -163,6 +163,9 @@
     <Filter Include="3rc\k8s-c-0.1.0\examples\watch_list_pod">
       <UniqueIdentifier>{ed673279-8288-40b4-814c-37a7cac096e2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="3rc\k8s-c-0.1.0\examples\auth_provider">
+      <UniqueIdentifier>{02d646dd-de8d-45da-acf6-d63b989289de}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\agent\src\config\config.h">
@@ -5083,6 +5086,9 @@
     </ClCompile>
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\watch_list_pod\main.c">
       <Filter>3rc\k8s-c-0.1.0\examples\watch_list_pod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\auth_provider\main.c">
+      <Filter>3rc\k8s-c-0.1.0\examples\auth_provider</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
