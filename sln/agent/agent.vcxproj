@@ -960,6 +960,7 @@
     <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\plat\unix\private-lib-plat-unix.h" />
     <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\private-lib-plat-windows.h" />
     <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\roles\private-lib-roles.h" />
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\secure-streams\private-lib-secure-streams.h" />
     <ClInclude Include="..\..\3rd\third_party\libyaml\include\yaml.h" />
     <ClInclude Include="..\..\3rd\third_party\libyaml\src\yaml_private.h" />
     <ClInclude Include="..\..\3rd\third_party\log4cpp-2.9.1\include\log4cpp\AbortAppender.hh" />
@@ -1928,6 +1929,9 @@
     <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\windows-service.c" />
     <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\windows-sockets.c" />
     <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\windows-spawn.c" />
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\secure-streams\policy-common.c" />
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\secure-streams\policy-json.c" />
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\secure-streams\secure-streams.c" />
     <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\system\system.c" />
     <ClCompile Include="..\..\3rd\third_party\libyaml\src\api.c" />
     <ClCompile Include="..\..\3rd\third_party\libyaml\src\dumper.c" />

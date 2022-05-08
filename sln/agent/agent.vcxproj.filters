@@ -3276,6 +3276,9 @@
     <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\private-lib-plat-windows.h">
       <Filter>3rc\libwebsockets\lib\plat\windows</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\libwebsockets\lib\secure-streams\private-lib-secure-streams.h">
+      <Filter>3rc\libwebsockets\lib\secure-streams</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\agent\src\config\config.cc">
@@ -6160,6 +6163,15 @@
     </ClCompile>
     <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\plat\windows\windows-spawn.c">
       <Filter>3rc\libwebsockets\lib\plat\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\secure-streams\policy-common.c">
+      <Filter>3rc\libwebsockets\lib\secure-streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\secure-streams\policy-json.c">
+      <Filter>3rc\libwebsockets\lib\secure-streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\libwebsockets\lib\secure-streams\secure-streams.c">
+      <Filter>3rc\libwebsockets\lib\secure-streams</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
