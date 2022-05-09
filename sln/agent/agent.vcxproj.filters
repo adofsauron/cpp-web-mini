@@ -292,6 +292,42 @@
     <Filter Include="3rc\EASTL\include\EASTL\internal\atomic">
       <UniqueIdentifier>{03ca150f-8d2a-4874-a089-2b3bd9ae5643}</UniqueIdentifier>
     </Filter>
+    <Filter Include="3rc\jsoncpp">
+      <UniqueIdentifier>{0da7b032-62b8-4932-8dc4-2bd2635b6fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\jsoncpp\include">
+      <UniqueIdentifier>{5ae3f32a-b6fc-4100-bb90-5761158e181e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\jsoncpp\src">
+      <UniqueIdentifier>{8667e161-e998-46c5-b9e8-ac0ebf47c128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\jsoncpp\include\json">
+      <UniqueIdentifier>{e1a8dc42-20f1-4c6c-ad09-31d2ab610bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\jsoncpp\src\jsontestrunner">
+      <UniqueIdentifier>{659ed510-08dc-46d5-b356-05c83b68bc23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\jsoncpp\src\lib_json">
+      <UniqueIdentifier>{6220a190-d69e-4186-820c-0424fcbee6b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\jsoncpp\src\test_lib_json">
+      <UniqueIdentifier>{6a469843-0d4b-4ceb-8c53-c2ff805d6804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\jsoncpp\example">
+      <UniqueIdentifier>{228cb479-3e58-40b6-b854-86f9c885b153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\jsoncpp\example\readFromStream">
+      <UniqueIdentifier>{3afd30c6-70b6-49e4-b839-79122874bde7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\jsoncpp\example\readFromString">
+      <UniqueIdentifier>{ae5a95fa-d71e-46bb-a838-794e33ba0d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\jsoncpp\example\streamWrite">
+      <UniqueIdentifier>{bd79c4eb-88e1-4a29-a08a-76f0d2ab99d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rc\jsoncpp\example\stringWrite">
+      <UniqueIdentifier>{c28ebdcb-60c7-44d0-a61d-7bc5b2c3ddd0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\agent\src\config\config.h">
@@ -3696,6 +3732,45 @@
     <ClInclude Include="..\..\3rd\third_party\EASTL\include\EASTL\weak_ptr.h">
       <Filter>3rc\EASTL\include\EASTL</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\allocator.h">
+      <Filter>3rc\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\assertions.h">
+      <Filter>3rc\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\config.h">
+      <Filter>3rc\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\forwards.h">
+      <Filter>3rc\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\json.h">
+      <Filter>3rc\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\json_features.h">
+      <Filter>3rc\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\reader.h">
+      <Filter>3rc\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\value.h">
+      <Filter>3rc\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\version.h">
+      <Filter>3rc\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\writer.h">
+      <Filter>3rc\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\src\lib_json\json_tool.h">
+      <Filter>3rc\jsoncpp\src\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\src\test_lib_json\fuzz.h">
+      <Filter>3rc\jsoncpp\src\test_lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\src\test_lib_json\jsontest.h">
+      <Filter>3rc\jsoncpp\src\test_lib_json</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\agent\src\config\config.cc">
@@ -6620,6 +6695,39 @@
     <ClCompile Include="..\..\3rd\third_party\EASTL\source\thread_support.cpp">
       <Filter>3rc\EASTL\source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\src\jsontestrunner\main.cpp">
+      <Filter>3rc\jsoncpp\src\jsontestrunner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\src\lib_json\json_reader.cpp">
+      <Filter>3rc\jsoncpp\src\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\src\lib_json\json_value.cpp">
+      <Filter>3rc\jsoncpp\src\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\src\lib_json\json_writer.cpp">
+      <Filter>3rc\jsoncpp\src\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\src\test_lib_json\fuzz.cpp">
+      <Filter>3rc\jsoncpp\src\test_lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\src\test_lib_json\jsontest.cpp">
+      <Filter>3rc\jsoncpp\src\test_lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\src\test_lib_json\main.cpp">
+      <Filter>3rc\jsoncpp\src\test_lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\example\stringWrite\stringWrite.cpp">
+      <Filter>3rc\jsoncpp\example\stringWrite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\example\streamWrite\streamWrite.cpp">
+      <Filter>3rc\jsoncpp\example\streamWrite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\example\readFromString\readFromString.cpp">
+      <Filter>3rc\jsoncpp\example\readFromString</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\example\readFromStream\readFromStream.cpp">
+      <Filter>3rc\jsoncpp\example\readFromStream</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\agent\src\proto\hello.proto">
@@ -8868,6 +8976,12 @@
     </None>
     <None Include="..\..\3rd\third_party\libwebsockets\lib\core-net\README.md">
       <Filter>3rc\libwebsockets\lib\core-net</Filter>
+    </None>
+    <None Include="..\..\3rd\third_party\jsoncpp\src\lib_json\json_valueiterator.inl">
+      <Filter>3rc\jsoncpp\src\lib_json</Filter>
+    </None>
+    <None Include="..\..\3rd\third_party\jsoncpp\src\test_lib_json\fuzz.dict">
+      <Filter>3rc\jsoncpp\src\test_lib_json</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

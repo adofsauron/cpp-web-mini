@@ -167,6 +167,19 @@
     <ClInclude Include="..\..\3rd\third_party\EASTL\include\EASTL\vector_set.h" />
     <ClInclude Include="..\..\3rd\third_party\EASTL\include\EASTL\version.h" />
     <ClInclude Include="..\..\3rd\third_party\EASTL\include\EASTL\weak_ptr.h" />
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\allocator.h" />
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\assertions.h" />
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\config.h" />
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\forwards.h" />
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\json.h" />
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\json_features.h" />
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\reader.h" />
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\value.h" />
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\version.h" />
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\include\json\writer.h" />
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\src\lib_json\json_tool.h" />
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\src\test_lib_json\fuzz.h" />
+    <ClInclude Include="..\..\3rd\third_party\jsoncpp\src\test_lib_json\jsontest.h" />
     <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\multi_thread\mt.h" />
     <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\api\AdmissionregistrationAPI.h" />
     <ClInclude Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\api\AdmissionregistrationV1API.h" />
@@ -1181,6 +1194,17 @@
     <ClCompile Include="..\..\3rd\third_party\EASTL\source\red_black_tree.cpp" />
     <ClCompile Include="..\..\3rd\third_party\EASTL\source\string.cpp" />
     <ClCompile Include="..\..\3rd\third_party\EASTL\source\thread_support.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\example\readFromStream\readFromStream.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\example\readFromString\readFromString.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\example\streamWrite\streamWrite.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\example\stringWrite\stringWrite.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\src\jsontestrunner\main.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\src\lib_json\json_reader.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\src\lib_json\json_value.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\src\lib_json\json_writer.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\src\test_lib_json\fuzz.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\src\test_lib_json\jsontest.cpp" />
+    <ClCompile Include="..\..\3rd\third_party\jsoncpp\src\test_lib_json\main.cpp" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\auth_provider\main.c" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\configmap\main.c" />
     <ClCompile Include="..\..\3rd\third_party\k8s-c-0.1.0\examples\create_pod\main.c" />
@@ -2147,6 +2171,8 @@
     <ClCompile Include="..\..\agent\src\tools\tools.cc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\3rd\third_party\jsoncpp\src\lib_json\json_valueiterator.inl" />
+    <None Include="..\..\3rd\third_party\jsoncpp\src\test_lib_json\fuzz.dict" />
     <None Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\docs\AdmissionregistrationAPI.md" />
     <None Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\docs\AdmissionregistrationV1API.md" />
     <None Include="..\..\3rd\third_party\k8s-c-0.1.0\kubernetes\docs\AdmissionregistrationV1beta1API.md" />
