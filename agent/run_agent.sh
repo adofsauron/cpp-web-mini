@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/local/lib64:/usr/local/lib:$LD_LIBRARY_PATH
 
 
 export TENANT_ID="ndb-influxdb"
